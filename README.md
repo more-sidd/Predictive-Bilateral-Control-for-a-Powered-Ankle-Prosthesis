@@ -1,0 +1,2 @@
+# Predictive-Bilateral-Control-for-a-Powered-Ankle-Prosthesis
+**Powered ankle prosthesis with real-time gait phase estimation and predictive torque control. Fuses IMU + FSR data on an ESP32-S2 at 100Hz, classifies gait into 4 biomechanical states via phase-portrait segmentation, and applies a 75ms predictive model to compensate system latency. Delivers feedforward torque via Moteus C1 over CAN-FD. 
