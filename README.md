@@ -99,9 +99,12 @@ At every terrain transition, ML confidence drops to ~15% and recovers above 60% 
 ## Repo Structure
 
 ```
-/firmware        # ESP32-S2 gait estimation + CAN-FD control loop
-/hardware        # Fusion 360 gearbox + prosthetic assembly files
 /data            # Logged walking trials (timestamp, angle, velocity, phase)
+/python          # python file used to record serial data storing it in a CSV
+/Matlab          #gait phase estimation and 75ms prediction
+/IDE             # ESP32 and MPU6050 calibiration
+/Videos          # documented Videos
+/ME 6250 Final report 
 ```
 
 ## Built With
